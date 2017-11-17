@@ -1,0 +1,139 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    padding-right: 16px;
+    font-size: 13.5px;
+    vertical-align: middle;
+}
+
+#gridicon {
+  filter: invert(30%);
+  margin-top: 4px;
+}
+
+#gridicon:hover {
+   filter: opacity(100%);
+}
+
+a:link, a:visited {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#signinbtn {
+  padding: 8px 15px 8px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 2px;
+  color: white;
+  background-color:#4285f4;
+  border: 1px solid #4285f4;
+}
+
+#signinbtn:hover {
+  box-shadow: 1px 1px 1px -1px grey;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 145px;
+}
+
+#search-box {
+  width: 474px;
+  height: 44px;
+  border: solid 1px #d0caca;
+  margin: 0 auto;
+  margin-top: 14px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 1px 0px rgba(1,1,0,.15);
+}
+#search-box:hover {
+  box-shadow: 0px 2px 3px 1px rgba(1,1,0,.15);
+}
+
+#searchbar {
+  display: inline-block;
+  padding: 4px 0 0 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#searchbar input {
+  border: none 0;
+  width: 414px;
+  height: 34px;
+  font-size: 1em;
+  outline: none;
+}
+
+.search-icon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-size: 24px 24px;
+  
+  vertical-align: middle;
+  padding-bottom: 2px;
+  background-image: url("microphone.png");
+  background-repeat: no-repeat;
+}
+
+.searchbtns {
+    margin: 0px;
+    text-align: center;
+}
+.searchbtns input{
+    background-color:#F5F5F5;
+    color:#757575;
+    margin: 30px 0px 0px 5px;
+    font-weight:bold;
+    padding:12px 15px 12px 15px;
+    border: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.searchbtns > input:hover {
+  box-shadow: 0px 0px 0px 1px hsla(0, 0%, 75%, 1);
+  border-radius: 2px;
+  color: black;
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e2e2e2;
+    padding: 13px 17px 13px 17px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.fl > a, .fr > a {
+  padding: 0px 13px 0px 13px;
+  color: #666;
+}
